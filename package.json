@@ -1,0 +1,56 @@
+{
+  "name": "react-native-pulse-loader-kit",
+  "version": "1.0.0",
+  "description": "A customizable circular progress tracker component for React",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rollup": "^4.27.4",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "expo-linear-gradient": "^14.0.1",
+    "react-native": "^0.76.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinaryLeo/react-native-pulse-loader-kit"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "pulse",
+    "progress",
+    "loader"
+  ],
+  "author": "@binaryleo",
+  "license": "MIT"
+}
