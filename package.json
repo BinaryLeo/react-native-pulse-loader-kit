@@ -1,7 +1,7 @@
 {
   "name": "react-native-pulse-loader-kit",
-  "version": "1.0.0",
-  "description": "A customizable circular progress tracker component for React",
+  "version": "1.0.1",
+  "description": "A customizable and reusable pulse loader component for React Native - Expo.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
