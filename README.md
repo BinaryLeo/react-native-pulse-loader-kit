@@ -13,7 +13,6 @@ npm install react-native-pulse-loader-kit
 ```
 
 Or via yarn:
-s
 
 ```sh
 yarn add react-native-pulse-loader-kit
@@ -21,16 +20,16 @@ yarn add react-native-pulse-loader-kit
 
 ## Usage
 
-Here's a basic example of how to use the `RNPulseLoaderKit` component in your React Native application:
+Here's a basic example of how to use the `PulseLoaderKit` component in your React Native application:
 
 ```tsx
 import React from "react";
 import { View } from "react-native";
-import { RNPulseLoaderKit } from "react-native-pulse-loader-kit";
+import { PulseLoaderKit } from "react-native-pulse-loader-kit";
 
 const App = () => (
   <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-    <RNPulseLoaderKit isLoaderInAction={true} />
+    <PulseLoaderKit isLoaderInAction={true} />
   </View>
 );
 
@@ -39,7 +38,7 @@ export default App;
 
 ## Props
 
-The `RNPulseLoaderKit` component accepts the following props:
+The `PulseLoaderKit` component accepts the following props:
 
 | Prop               | Type                            | Default                             | Description                                                  |
 | ------------------ | ------------------------------- | ----------------------------------- | ------------------------------------------------------------ |
@@ -62,7 +61,7 @@ Here's a more detailed example demonstrating various props:
 ### Single Pulse Example
 
 ```tsx
-<RNPulseLoaderKit
+<PulseLoaderKit
   isLoaderInAction={true}
   singlePulse={true}
   pulseStages={[4, 6, 8, 10, 12]}
@@ -77,7 +76,7 @@ Here's a more detailed example demonstrating various props:
 ### Multiple Pulses Example
 
 ```tsx
-<RNPulseLoaderKit
+<PulseLoaderKit
   isLoaderInAction={true}
   dotCount={5}
   dotColor="#49C91C"
